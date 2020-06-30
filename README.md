@@ -17,3 +17,12 @@ This framework contains code for generating operator-dependent and operator-expa
 * ``RunBikeSharingQueries`` evaluates a query algorithm on queries generated with the command above
 
 All of the above commands use custom data formats for loading the public transit network, the transfer graph, and the bike sharing stations. As an example we provide the public transit network of Switzerland together with a transfer graph extracted from OpenStreetMap in the appropriate binary format at [https://i11www.iti.kit.edu/PublicTransitData/Switzerland/binaryFiles/](https://i11www.iti.kit.edu/PublicTransitData/Switzerland/binaryFiles/). Additional files containing the location of bike-sharing stations and their operators are available at [https://i11www.iti.kit.edu/PublicTransitData/BikeSharing/](https://i11www.iti.kit.edu/PublicTransitData/BikeSharing/)
+ 
+## Publications
+
+A detailed introduction to the ULTRA-Bike-Sharing algorithm as well as an in-depth evaluation of its performance is given in:
+
+* *Faster Multi-Modal Route Planning With Bike Sharing Using ULTRA*  
+  Jonas Sauer, Dorothea Wagner, Tobias Zündorf  
+  In: Proceedings of the 18th International Symposium on Experimental Algorithms (SEA'20), Leibniz International Proceedings in Informatics, pages 16:1--16:14, 2020  
+  [pdf](https://drops.dagstuhl.de/opus/volltexte/2020/12090/pdf/LIPIcs-SEA-2020-16.pdf)
